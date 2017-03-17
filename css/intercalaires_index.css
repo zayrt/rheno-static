@@ -31,10 +31,12 @@
     }
     .bloc-btns {
         padding-top: 40px;
+        margin-bottom: 40px;
     }
     .bloc-btn-gammes {
         padding-top: 8px;
     }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -80,7 +82,11 @@
         width: 250px;
     }
     .btn-gammes {
-        width: 250px;
+        width: 244px;
+        padding-left: 7px;
+    }
+    .bloc-btns {
+        margin-bottom: 40px;
     }
 }
 
