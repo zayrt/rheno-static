@@ -68,7 +68,6 @@
     }
     .div-products {
         padding-top: 19px;
-        margin-left: -20px;
     }
     .infos {
         margin-left: -25px;
@@ -77,6 +76,7 @@
     }
     .btn-product {
         padding-top: 17px;
+        margin-left: -35px;
     }
     .btn-devis {
         width: 250px;
@@ -87,6 +87,7 @@
     }
     .bloc-btns {
         margin-bottom: 40px;
+        margin-left: -30px;
     }
 }
 
