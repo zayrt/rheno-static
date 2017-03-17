@@ -30,6 +30,9 @@
     .li-footer {
         padding-top: 17px;
     }
+    footer {
+        height: 201px;
+    }
 }
 
 .link-footer {
@@ -46,8 +49,6 @@
         height: 50px;
     }
     .copyright {
-        font-family: 'Aller Light';
-        color: #FFFFFF;
         font-size: 10px;
         padding-top: 30px;
     }
@@ -57,12 +58,33 @@
     .arrow-tab-footer {
         padding-top: 70px;
     }
+    footer {
+        height: 201px;
+    }
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .ul-mobile {
+        text-align: center;
+    }
+    .copyright {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .logo-footer {
+        margin-top: 30px;
+        height: 37px;
+        margin-bottom: 10px;
+    }
+    footer {
+        height: 275px;
+    }
+    .li-footer {
+        padding-top: 18px;
+    }
+}
 
 footer {
-    height: 201px;
     background-color: black;
 }
 
