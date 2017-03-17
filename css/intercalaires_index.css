@@ -29,14 +29,9 @@
     .div-products {
         padding-top: 31px;
     }
-    .bloc-btns {
-        padding-top: 40px;
-        margin-bottom: 40px;
-    }
     .bloc-btn-gammes {
         padding-top: 8px;
     }
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -76,7 +71,7 @@
     }
     .btn-product {
         padding-top: 17px;
-        margin-left: -35px;
+        margin-left: -10%;
     }
     .btn-devis {
         width: 250px;
@@ -86,9 +81,13 @@
         padding-left: 7px;
     }
     .bloc-btns {
-        margin-bottom: 40px;
-        margin-left: -30px;
+        margin-left: -10%;
     }
+}
+
+.bloc-btns {
+    padding-top: 40px;
+    margin-bottom: 40px;
 }
 
 .infos {
