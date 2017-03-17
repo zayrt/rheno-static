@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Aller Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller Light'), url('Aller_Lt.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Aller';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
+}
+
+@media (min-width: 1200px) {
+    .logo-footer {
+        margin-top: 20px;
+        height: 91px;
+    }
+    .arrow-footer {
+        height: 41px;
+    }
+    .footer-padding {
+        padding-top: 37px;
+    }
+    .copyright {
+        font-size: 11px;
+        padding-top: 75px;
+    }
+    .li-footer {
+        padding-top: 17px;
+    }
+}
+
+.link-footer {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: system-ui;
+    font-weight: lighter;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .logo-footer {
+        margin-top: 70px;
+        padding-left: 40px;
+        height: 50px;
+    }
+    .copyright {
+        font-family: 'Aller Light';
+        color: #FFFFFF;
+        font-size: 10px;
+        padding-top: 30px;
+    }
+    .middle-bloc-footer {
+        padding-top: 50px;
+    }
+    .arrow-tab-footer {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 767px) {}
+
+footer {
+    height: 201px;
+    background-color: black;
+}
+
+.copyright {
+    font-family: 'Aller Light';
+    color: #FFFFFF;
+}
+
+.bloc-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
