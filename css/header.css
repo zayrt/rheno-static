@@ -1,0 +1,120 @@
+@media (min-width: 1200px) {
+    header {
+        height: 101px;
+        background-color: black;
+    }
+    header #logo {
+        position: relative;
+        top: 15px;
+    }
+    header #search {
+        position: relative;
+        top: 37px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    header {
+        height: 57px;
+        background-color: black;
+    }
+    header #logo-tab {
+        position: relative;
+        top: 6px;
+    }
+    header #div-menu {
+        position: relative;
+        top: 17px;
+    }
+    header #search {
+        position: relative;
+        top: 17px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 39px;
+        background-color: black;
+    }
+    header #logo-mob {
+        position: relative;
+        top: 7px;
+    }
+    header #div-menu {
+        position: relative;
+        top: 6px;
+    }
+}
+
+header #mobile-menu {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+header ul {
+    position: relative;
+    top: 40px;
+}
+
+@font-face {
+    font-family: 'Aller';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+    font-family: Aller;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+header a:not(:hover) {
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+    header .lspace {
+        padding-left: 15px;
+    }
+}
+
+header .dropdown-menu {
+    width: 40px;
+    border-radius: 0px;
+    padding: 0;
+}
+
+header .dropdown-menu a {
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+}
+
+header .dropdown-menu a:hover {
+    background-color: #EF001D;
+    background-image: none;
+    color: white;
+}
+
+.full {
+    margin: 0 auto;
+    width: 100%;
+}

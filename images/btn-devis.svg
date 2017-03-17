@@ -1,0 +1,28 @@
+
+<svg width="268px" height="68px" viewBox="236 1182 268 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="2.5852909%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FBDA61" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="249.14966" height="50" rx="25"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.293075043   0 0 0 0 0.293075043   0 0 0 0 0.293075043  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Bouton-devis-3" stroke="none" fill="none" transform="translate(245.000000, 1189.000000)" stroke-width="1" fill-rule="evenodd">
+        <g>
+            <g id="Rectangle-8">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <text id="demande-de-devis" font-family="Aller-Bold, Aller" font-size="18" font-weight="bold" letter-spacing="0.150000021" fill="#FFFFFF">
+                <tspan x="49.3541699" y="32">demande de devis</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

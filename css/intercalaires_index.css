@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Aller Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller Light'), url('Aller_Lt.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Aller';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
+}
+
+@media (min-width: 1200px) {
+    .line {
+        height: 92px;
+    }
+    .infos {
+        line-height: 132px;
+        font-size: 25px;
+    }
+    .menu {
+        position: absolute;
+        left: -38px;
+        height: 75px;
+        top: 25px;
+    }
+    .div-products {
+        padding-top: 31px;
+    }
+    .bloc-btns {
+        padding-top: 40px;
+    }
+    .bloc-btn-gammes {
+        padding-top: 8px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .line {
+        height: 42px;
+    }
+    .btn-product {
+        padding-top: 15px;
+    }
+    .menu {
+        position: relative;
+        top: 2px;
+        left: -110px;
+    }
+    .div-products {
+        margin-left: -40px;
+    }
+    .infos {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu {
+        position: relative;
+        top: 15px;
+        height: 56px;
+        left: -70px;
+    }
+    .div-products {
+        padding-top: 19px;
+        margin-left: -20px;
+    }
+    .infos {
+        margin-left: -25px;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .btn-product {
+        padding-top: 17px;
+    }
+    .btn-devis {
+        width: 250px;
+    }
+    .btn-gammes {
+        width: 250px;
+    }
+}
+
+.infos {
+    color: black;
+    font-family: Aller Light;
+}
+
+.line {
+    border-bottom: 1px solid #FFCC08;
+}
+
+.breadcrumbs {
+    margin-top: 9px;
+}
+
+.breadcrumbs a {
+    color: black;
+    font-family: Aller Light;
+    font-size: 12px;
+}
+
+.title {
+    background-color: #F6F6F6;
+    height: 161px;
+    marign-top: 10px;
+}
+
+.category-title {
+    color: #F6A623;
+    font-size: 30px;
+    font-family: Aller Light;
+    margin-top: 20px;
+}
+
+.product-title {
+    color: #373737;
+    font-size: 40px;
+    font-family: Aller;
+}
+
+.notes {
+    font-family: Aller Light;
+    color: #565656;
+    font-size: 16px;
+}
+
+.notes-socle,
+.notes-repositionnable {
+    border-bottom: 1px solid #B9B9B9;
+    margin-right: 10px;
+    margin-left: 10px;
+}
