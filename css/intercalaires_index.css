@@ -29,8 +29,8 @@
     .div-products {
         padding-top: 31px;
     }
-    .bloc-btn-gammes {
-        padding-top: 8px;
+    .btn-gammes {
+        padding-top: 6px;
     }
 }
 
@@ -74,14 +74,11 @@
         margin-left: -10%;
     }
     .btn-devis {
-        width: 250px;
+        padding-top: 15px;
+        width: 265px;
     }
     .btn-gammes {
-        width: 244px;
-        padding-left: 7px;
-    }
-    .bloc-btns {
-        margin-left: -20%;
+        width: 237px;
     }
 }
 

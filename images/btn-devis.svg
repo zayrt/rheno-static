@@ -1,5 +1,5 @@
 
-<svg width="268px" height="68px" viewBox="236 1182 268 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="269px" height="68px" viewBox="235 1182 269 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
     <defs>
@@ -20,8 +20,8 @@
                 <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
                 <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
             </g>
-            <text id="demande-de-devis" font-family="Aller-Bold, Aller" font-size="18" font-weight="bold" letter-spacing="0.150000021" fill="#FFFFFF">
-                <tspan x="49.3541699" y="32">demande de devis</tspan>
+            <text id="demande-de-devis" font-family="Aller" font-size="18" letter-spacing="0.150000021" fill="#FFFFFF">
+                <tspan x="49.3541699" y="32">DEMANDE DE DEVIS</tspan>
             </text>
         </g>
     </g>
