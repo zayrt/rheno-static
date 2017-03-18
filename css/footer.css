@@ -27,9 +27,6 @@
         font-size: 11px;
         padding-top: 75px;
     }
-    .li-footer {
-        padding-top: 17px;
-    }
     footer {
         height: 201px;
     }
@@ -64,9 +61,6 @@
 }
 
 @media (max-width: 767px) {
-    .ul-mobile {
-        text-align: center;
-    }
     .copyright {
         padding-top: 20px;
         text-align: center;
@@ -79,18 +73,27 @@
     footer {
         height: 275px;
     }
-    .li-footer {
-        padding-top: 18px;
-    }
 }
 
 footer {
     background-color: black;
 }
 
+.li-footer {
+    padding-top: 17px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .copyright {
     font-family: 'Aller Light';
     color: #FFFFFF;
+}
+
+.remove-list-type {
+    list-style-type: none;
 }
 
 .bloc-center {
