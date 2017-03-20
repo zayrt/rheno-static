@@ -13,8 +13,8 @@
 }
 
 @media (min-width: 1200px) {
-    .actu-title {
-        height: 570px;
+    .actu-background {
+        height: 530px;
     }
     .actu-subtitle {
         height: 110px;
@@ -23,10 +23,16 @@
         height: 270px;
         padding-left: 27px;
     }
+    .actu-title {
+        height: 80px;
+        position: absolute;
+        bottom: 0px;
+        left: 90px;
+    }
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1199px) {
-    .actu-title {
+    .actu-background {
         height: 450px;
     }
     .actu-subtitle {
@@ -36,11 +42,17 @@
         height: 305px;
         padding-left: 30px;
     }
+    .actu-title {
+        height: 80px;
+        position: absolute;
+        bottom: 0px;
+        left: 90px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 799px) {
-    .actu-title {
-        height: 340px;
+    .actu-background {
+        height: 308px;
     }
     .actu-subtitle {
         height: 135px;
@@ -49,11 +61,17 @@
         height: 215px;
         padding-left: 27px;
     }
+    .actu-title {
+        height: 70px;
+        position: absolute;
+        bottom: 0px;
+        left: 70px;
+    }
 }
 
 @media (max-width: 767px) {
-    .actu-title {
-        height: 180px;
+    .actu-background {
+        height: 220px;
     }
     .actu-subtitle {
         height: 110px;
@@ -63,6 +81,20 @@
         position: relative;
         left: -7px;
     }
+    .actu-title {
+        height: 28px;
+        position: absolute;
+        bottom: 0px;
+        left: 13px;
+    }
+}
+
+.actu-background {
+    background-image: url('../images/actu-background.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+    position: relative;
 }
 
 .actu-date {
