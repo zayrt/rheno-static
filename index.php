@@ -1,6 +1,6 @@
 <h2>Voici la liste des pages</h2>
 <div>
-<a href="/intercalaires_index.html">Liste des intercalaires</a>
+<a href="/intercalaires-index.html">Liste des intercalaires</a>
 </div>
 <div>
 <a href="/actu-index.html">Liste des actualitées</a>
