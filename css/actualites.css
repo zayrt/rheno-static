@@ -109,3 +109,11 @@
 .actu-row {
     margin-bottom: 60px;
 }
+
+.my-pagination {
+    font-family: Aller-Bold;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 0.15px;
+    margin-bottom: 50px;
+}
