@@ -12,14 +12,18 @@
     src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) {}
 
-}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {}
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media (max-width: 767px) {}
 
-}
-
-@media (max-width: 767px) {
-
+.my-breadcrumb {
+    font-family: Aller-Light;
+    font-size: 9px;
+    color: #2D2D2D;
+    letter-spacing: 0.08px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
