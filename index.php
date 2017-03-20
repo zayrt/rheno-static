@@ -3,5 +3,8 @@
 <a href="/intercalaires_index.html">Liste des intercalaires</a>
 </div>
 <div>
-<a href="/actualites.html">Liste des actualitées</a>
+<a href="/actu-index.html">Liste des actualitées</a>
+</div>
+<div>
+<a href="/actu.html">Actualité article</a>
 </div>
