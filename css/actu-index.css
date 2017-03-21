@@ -74,7 +74,7 @@
         height: 220px;
     }
     .actu-subtitle {
-        height: 120px;
+        margin-bottom: 30px;
     }
     .actu-img {
         position: relative;
@@ -146,7 +146,7 @@
     font-size: 18px;
     color: black;
     letter-spacing: 0.15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .my-breadcrumb {
@@ -155,4 +155,10 @@
     letter-spacing: 0.08px;
     margin-bottom: 40px;
     margin-left: 20px;
+}
+
+.thumbnail {
+    border:none;
+    box-shadow:none;
+    border-radius:none;
 }

@@ -1,0 +1,11 @@
+<svg width="24px" height="1073px" viewBox="1343 250 24 1073" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="1343" y="250" width="24" height="1073" rx="5"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24" height="1073" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <use id="Rectangle-19" stroke="#979797" mask="url(#mask-2)" stroke-width="2" fill="none" xlink:href="#path-1"></use>
+</svg>

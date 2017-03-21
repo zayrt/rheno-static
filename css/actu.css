@@ -20,10 +20,86 @@
 
 .my-breadcrumb {
     font-family: Aller-Light;
-    font-size: 9px;
     color: #2D2D2D;
     letter-spacing: 0.08px;
     margin-left: 20px;
     margin-bottom: 40px;
     margin-top: 40px;
+}
+
+.actu-date {
+    font-family: Aller-Bold;
+    font-size: 50px;
+    color: #C3C3C3;
+    letter-spacing: 0.42px;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+
+.side-date {
+    font-family: Aller-Bold;
+    font-size: 30px;
+    color: #C3C3C3;
+    letter-spacing: 0.25px;
+    line-height: 56px;
+}
+
+.actu-title {
+    font-family: Aller-Bold;
+    font-size: 45px;
+    color: #292929;
+    letter-spacing: 0.38px;
+    line-height: 41px;
+    margin-bottom: 50px;
+}
+
+.side-title {
+    font-family: Aller-Bold;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: -0.19px;
+    line-height: 21px;
+}
+
+.actu-desc {
+    font-family: Aller-Light;
+    font-size: 15px;
+    color: #292929;
+    letter-spacing: 0.13px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.thumbnail {
+    border: none;
+    box-shadow: none;
+    border-radius: none;
+    width: 100%;
+}
+
+.side-container {
+    height: 1120px;
+    margin-left: 60px;
+    border-bottom: 2px solid #9A9A9A;
+}
+
+.side-bloc {
+    overflow-y: scroll;
+    height: 1100px;
+}
+
+.side-elem {
+    padding-right: 5px;
+}
+
+.side-bloc::-webkit-scrollbar {
+    border: 1px solid #979797;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.side-bloc::-webkit-scrollbar-thumb {
+    background: #EDEDED;
+    border: 1px solid #979797;
+    border-radius: 5px;
 }
