@@ -12,12 +12,6 @@
     src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
 }
 
-@media (min-width: 1200px) {}
-
-@media only screen and (min-width: 768px) and (max-width: 1199px) {}
-
-@media (max-width: 767px) {}
-
 .my-breadcrumb {
     font-family: Aller-Light;
     color: #2D2D2D;
@@ -42,6 +36,7 @@
     color: #C3C3C3;
     letter-spacing: 0.25px;
     line-height: 56px;
+    padding-top: 27px;
 }
 
 .actu-title {
@@ -67,7 +62,7 @@
     color: #292929;
     letter-spacing: 0.13px;
     line-height: 23px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .thumbnail {
@@ -75,12 +70,18 @@
     box-shadow: none;
     border-radius: none;
     width: 100%;
+    margin-bottom: 0px;
 }
 
 .side-container {
     height: 1120px;
     margin-left: 60px;
     border-bottom: 2px solid #9A9A9A;
+}
+
+.side-container-mobile {
+    border-top: 1px solid #979797;
+    margin-bottom: 30px;
 }
 
 .side-bloc {
@@ -90,6 +91,23 @@
 
 .side-elem {
     padding-right: 5px;
+}
+
+.arrow-mobile {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #979797;
+}
+
+.row-horizon::-webkit-scrollbar {
+    border: 1px solid #3F60FF;
+    border-radius: 5px;
+}
+
+.row-horizon::-webkit-scrollbar-thumb {
+    background: #3F60FF;
+    border: 1px solid #3F60FF;
+    border-radius: 5px;
 }
 
 .side-bloc::-webkit-scrollbar {

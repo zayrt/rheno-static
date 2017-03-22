@@ -95,9 +95,3 @@ footer {
 .remove-list-type {
     list-style-type: none;
 }
-
-.bloc-center {
-    margin-left: auto;
-    margin-right: auto;
-    display: table;
-}
