@@ -124,3 +124,12 @@ header .dropdown-menu a:hover {
     margin-right: auto;
     display: table;
 }
+
+.my-breadcrumb {
+    font-family: Aller-Light;
+    color: #2D2D2D;
+    letter-spacing: 0.08px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}

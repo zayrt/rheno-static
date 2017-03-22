@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Aller Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller Light'), url('Aller_Lt.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Aller';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
+}
+
+.subtitle {
+    font-family: Aller-Light;
+    font-size: 50px;
+    color: #000000;
+    letter-spacing: 0.42px;
+    line-height: 82px;
+}
+
+.cat-title {
+    font-family: LucidaGrande;
+    font-size: 50px;
+    color: #000000;
+    letter-spacing: 0.42px;
+    line-height: 82px;
+    margin-bottom: 35px;
+}
+
+.list-product {
+    font-family: Aller;
+    font-size: 25px;
+    color: #000000;
+    letter-spacing: 0.25px;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.list-product li {
+    margin-top: 25px;
+}
+
+.cross {
+    position: absolute;
+    right: -25px;
+    top: 15px;
+}
+
+.desc {
+    color: #FFD200;
+    padding-left: 60px;
+    padding-top: 70px;
+}
+
+.big {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.medium {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.small {
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.bloc-list {
+    background: #FFFFFF;
+    box-shadow: 0 8px 15px 1px rgba(93, 93, 93, 0.50);
+    margin-bottom: 30px;
+    position: relative;
+}

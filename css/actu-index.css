@@ -92,7 +92,7 @@
     background-image: url('../images/actu-background.png');
     background-size: cover;
     background-position: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     position: relative;
 }
 
@@ -147,14 +147,6 @@
     color: black;
     letter-spacing: 0.15px;
     margin-bottom: 30px;
-}
-
-.my-breadcrumb {
-    font-family: Aller-Light;
-    color: #2D2D2D;
-    letter-spacing: 0.08px;
-    margin-bottom: 40px;
-    margin-left: 20px;
 }
 
 .thumbnail {
