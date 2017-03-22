@@ -8,3 +8,6 @@
 <div>
 <a href="/actu.html">Actualité article</a>
 </div>
+<div>
+<a href="/category.html">Category de produit</a>
+</div>
