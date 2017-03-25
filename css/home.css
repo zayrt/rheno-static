@@ -32,6 +32,7 @@
         padding-left: 5px;
         font-size: 15px;
         letter-spacing: 1.5px;
+        height: 65px;
     }
     .atiquette {
         height: 160px;
@@ -77,6 +78,22 @@
     }
 }
 
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+    .bloc-circle {
+        padding-left: 75px;
+    }
+    .title-circle {
+    	position: relative;
+    	right: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    .title-circle {
+        padding-left: 20px;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
     .circle {
         border-width: 10px;
@@ -87,7 +104,6 @@
         font-family: Aller;
         font-size: 12px;
         letter-spacing: 0.17px;
-        padding-left: 20px;
         padding-top: 5px;
     }
     .bloc-circle {
