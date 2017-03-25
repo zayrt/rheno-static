@@ -17,26 +17,148 @@
     background-image: linear-gradient(0deg, #FFCC08 42%, #FF9420 100%);
 }
 
+@media (min-width: 1200px) {
+    .bloc-circle {
+        position: relative;
+        top: -110px;
+    }
+    .circle {
+        border-width: 10px;
+        height: 220px;
+        width: 220px;
+    }
+    .title-circle {
+        padding-top: 10px;
+        padding-left: 5px;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+    .atiquette {
+        height: 160px;
+        position: relative;
+        left: 43px;
+        top: 19px;
+    }
+    .affiche {
+        height: 115px;
+        position: relative;
+        top: 2px;
+        left: 42px;
+    }
+    .pub {
+        height: 100px;
+        position: relative;
+        left: 45px;
+        top: 30px;
+    }
+    .rouleau {
+        height: 60px;
+        position: relative;
+        top: 10px;
+        left: 55px;
+    }
+    .postit {
+        height: 55px;
+        position: relative;
+        top: 35px;
+        left: 35px;
+    }
+    .intercalaire {
+        height: 85px;
+        position: relative;
+        top: 35px;
+        left: 35px;
+    }
+    .bloc {
+        height: 65px;
+        position: relative;
+        left: 65px;
+        top: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .circle {
+        border-width: 10px;
+        height: 190px;
+        width: 190px;
+    }
+    .title-circle {
+        font-family: Aller;
+        font-size: 12px;
+        letter-spacing: 0.17px;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    .bloc-circle {
+        position: relative;
+        top: -95px;
+    }
+    .bloc-c1 {
+        margin-left: 20px;
+    }
+    .atiquette {
+        height: 140px;
+        position: relative;
+        top: 15px;
+        left: 34px;
+    }
+    .affiche {
+        height: 105px;
+        position: relative;
+        left: 30px;
+        top: 3px;
+    }
+    .pub {
+        height: 95px;
+        position: relative;
+        left: 40px;
+        top: 40px;
+    }
+    .rouleau {
+        height: 50px;
+        position: relative;
+        left: 30px;
+        top: 10px;
+    }
+    .bloc {
+        height: 55px;
+        position: relative;
+        left: 25px;
+    }
+    .intercalaire {
+        height: 95px;
+        position: relative;
+        top: 20px;
+        left: 15px;
+    }
+    .postit {
+        height: 45px;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .circle {}
+    .title-circle {}
+}
+
 .circle {
     border-radius: 50%;
     border-style: solid;
-    border-width: 10px;
     border-color: white;
-    height: 220px;
-    width: 220px;
-    position: absolute;
-    top: -110px;
 }
 
 .title-circle {
-    padding-top: 135px;
-    padding-left: 5px;
     text-align: center;
     font-family: Aller;
-    font-size: 15px;
     color: #000000;
-    letter-spacing: 1.5px;
 }
+
+
+/* Etiquettes Adhésives: */
 
 .rectangle {
     background: white;
@@ -45,60 +167,4 @@
     border-color: #979797;
     margin-top: 20px;
     margin-bottom: 30px;
-}
-
-.atiquette {
-    height: 160px;
-    position: relative;
-    left: 43px;
-    top: 19px;
-}
-
-.pub {
-    height: 90px;
-    position: relative;
-    left: 45px;
-    top: 20px;
-}
-
-.affiche {
-    height: 115px;
-    position: relative;
-    top: 2px;
-    left: 42px;
-}
-
-.pub {
-    height: 100px;
-    position: relative;
-    left: 45px;
-    top: 30px;
-}
-
-.rouleau {
-    height: 60px;
-    position: relative;
-    top: 10px;
-    left: 55px;
-}
-
-.postit {
-    height: 55px;
-    position: relative;
-    top: 35px;
-    left: 35px;
-}
-
-.intercalaire {
-    height: 85px;
-    position: relative;
-    top: 35px;
-    left: 35px;
-}
-
-.bloc {
-    height: 65px;
-    position: relative;
-    left: 65px;
-    top: 20px;
 }
