@@ -133,3 +133,11 @@ header .dropdown-menu a:hover {
     margin-bottom: 40px;
     margin-top: 30px;
 }
+
+.thumbnail {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none;
+    box-shadow: none;
+    border-radius: none;
+}

@@ -1,0 +1,24 @@
+
+<svg width="79px" height="79px" viewBox="19 97 79 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-4.72955008e-13" y="5.03361345" width="67.8560947" height="55.9663866"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="67.8560947" height="55.9663866" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="bloc-rheno" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(20.000000, 97.000000)">
+        <g id="picto-bloc-rheno" transform="translate(38.779733, 35.940675) rotate(-10.000000) translate(-38.779733, -35.940675) translate(4.779733, 5.440675)">
+            <use id="Rectangle" stroke="white" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+            <polygon id="Rectangle-6" fill="white" points="7.35283162 0.479055467 61.4659198 0.479055467 61.4659198 11.5714924 47.3901676 11.5714924 7.35283162 11.5714924"></polygon>
+            <ellipse id="Oval-2"  cx="13.7792188" cy="5.92402679" rx="2.55534027" ry="2.34688045"></ellipse>
+            <ellipse id="Oval-2"  cx="55.5097635" cy="5.86782499" rx="2.55534027" ry="2.34688045"></ellipse>
+            <path d="M34,10.8555284 L34,59.3244965" id="Line" stroke="white" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M65.7976145,25 L33.8021775,25" id="Line" stroke="white" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M65.7976145,42 L33.8021775,42" id="Line" stroke="white" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+        <polygon id="Path-4" stroke="white" points="1.34765625 19 0 31.1339516 8.49609375 76.3535156 11.90625 70.2855797"></polygon>
+        <polygon id="Path-5" stroke="white" points="9 77.4179688 74.5487449 65.2519531 77 60.3847656 12.4 70.7929688"></polygon>
+    </g>
+</svg>

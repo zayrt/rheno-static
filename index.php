@@ -11,3 +11,6 @@
 <div>
 <a href="/category.html">Category de produit</a>
 </div>
+<div>
+<a href="/home.html">Accueil</a>
+</div>
