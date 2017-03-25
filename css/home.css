@@ -83,8 +83,8 @@
         padding-left: 75px;
     }
     .title-circle {
-    	position: relative;
-    	right: 10px;
+        position: relative;
+        right: 10px;
     }
 }
 
@@ -157,8 +157,85 @@
 }
 
 @media (max-width: 767px) {
-    .circle {}
-    .title-circle {}
+    .circle {
+        border-width: 7px;
+        height: 172px;
+        width: 172px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bloc-circle {
+        position: relative;
+        top: -70px;
+    }
+    .atiquette {
+        height: 120px;
+        position: relative;
+        top: 20px;
+        left: 35px;
+    }
+    .affiche {
+        height: 95px;
+        position: relative;
+        left: 30px;
+        top: 3px;
+    }
+    .pub {
+        height: 80px;
+        position: relative;
+        left: 35px;
+        top: 40px;
+    }
+    .rouleau {
+        height: 43px;
+        position: relative;
+        left: 25px;
+        top: 10px;
+    }
+    .bloc {
+        height: 52px;
+        position: relative;
+        left: 35px;
+        top: 15px;
+    }
+    .intercalaire {
+        height: 70px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+    .postit {
+        height: 40px;
+        position: relative;
+        top: 25px;
+        left: 35px;
+    }
+    .title-circle {
+        font-family: Aller;
+        font-size: 20px;
+        color: #000000;
+        letter-spacing: 0.17px;
+        line-height: 28px;
+        padding-top: 5px;
+        margin-bottom: 15px;
+    }
+}
+
+.intro-mobile {
+    background-image: url('../images/intro-mobile.png');
+    background-size: cover;
+    background-position: center;
+    height: 228px;
+    width: 100%;
+}
+
+.intro-title {
+    font-family: NexaBold;
+    font-size: 25px;
+    color: #FFFFFF;
+    letter-spacing: 0.21px;
+    text-align: center;
+    padding-top: 65px;
 }
 
 .circle {
@@ -172,9 +249,6 @@
     font-family: Aller;
     color: #000000;
 }
-
-
-/* Etiquettes Adhésives: */
 
 .rectangle {
     background: white;
