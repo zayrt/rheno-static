@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'Aller';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
-}
-
 .c1 {
     background-image: linear-gradient(-5deg, #001061 0%, #3571F4 60%);
 }
@@ -18,6 +11,10 @@
 }
 
 @media (min-width: 1200px) {
+	.middle-home .middle-home > img {
+		width: 100%;
+		height: 330px;
+	}
     .bloc-circle {
         position: relative;
         top: -110px;
@@ -107,6 +104,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
+	.middle-home .middle-home > img {
+		width: 100%;
+		height: 229px;
+	}
     .circle {
         border-width: 10px;
         height: 190px;
@@ -181,6 +182,10 @@
 }
 
 @media (max-width: 767px) {
+	.middle-home .middle-home > img {
+		width: 100%;
+		height: 204px;
+	}
     .circle {
         border-width: 7px;
         height: 172px;
@@ -255,6 +260,10 @@
         font-size: 23px;
         letter-spacing: 0.25px;
     }
+}
+
+.middle-home {
+	margin-bottom: 40px;
 }
 
 .bloc-chiffres {
