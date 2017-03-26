@@ -2,21 +2,21 @@
     font-family: 'Aller Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Aller Light'), url('Aller_Lt.woff') format('woff');
+    src: url('../fonts/Aller_Lt.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Aller';
     font-style: normal;
     font-weight: normal;
-    src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
+    src: url('../fonts/Aller_Rg.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Aller Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Aller Bold'), url('./fontsAller_Bd.woff') format('woff');
+    src: url('../fonts/Aller_Bd.woff') format('woff');
 }
 
 @media (min-width: 1200px) {
