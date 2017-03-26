@@ -11,10 +11,10 @@
 }
 
 @media (min-width: 1200px) {
-	.middle-home .middle-home > img {
-		width: 100%;
-		height: 330px;
-	}
+    .middle-home > img {
+        width: 100%;
+        height: 330px;
+    }
     .bloc-circle {
         position: relative;
         top: -110px;
@@ -104,10 +104,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-	.middle-home .middle-home > img {
-		width: 100%;
-		height: 229px;
-	}
+    .middle-home > img {
+        width: 100%;
+        height: 229px;
+    }
     .circle {
         border-width: 10px;
         height: 190px;
@@ -182,16 +182,14 @@
 }
 
 @media (max-width: 767px) {
-	.middle-home .middle-home > img {
-		width: 100%;
-		height: 204px;
-	}
+    .middle-home > img {
+        width: 100%;
+        height: 204px;
+    }
     .circle {
         border-width: 7px;
         height: 172px;
         width: 172px;
-        margin-left: auto;
-        margin-right: auto;
     }
     .bloc-circle {
         position: relative;
@@ -263,7 +261,7 @@
 }
 
 .middle-home {
-	margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .bloc-chiffres {
@@ -303,6 +301,8 @@
     border-radius: 50%;
     border-style: solid;
     border-color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-circle {
