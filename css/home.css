@@ -30,9 +30,9 @@
     .title-circle {
         padding-top: 10px;
         padding-left: 5px;
-        font-size: 15px;
+        font-size: 20px;
         letter-spacing: 1.5px;
-        height: 65px;
+        height: 95px;
     }
     .atiquette {
         height: 160px;
@@ -76,6 +76,18 @@
         left: 65px;
         top: 20px;
     }
+    .bloc-chiffres {
+        height: 245px;
+    }
+    .chiffres {
+        font-size: 70px;
+        letter-spacing: 0.67px;
+        padding-top: 40px;
+    }
+    .chiffres-infos {
+        font-size: 20px;
+        letter-spacing: 0.25px;
+    }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
@@ -102,7 +114,7 @@
     }
     .title-circle {
         font-family: Aller;
-        font-size: 12px;
+        font-size: 16px;
         letter-spacing: 0.17px;
         padding-top: 5px;
     }
@@ -153,6 +165,18 @@
         position: relative;
         top: 20px;
         left: 20px;
+    }
+    .bloc-chiffres {
+        height: 366px;
+    }
+    .chiffres {
+        font-size: 60px;
+        letter-spacing: 0.67px;
+        padding-top: 40px;
+    }
+    .chiffres-infos {
+        font-size: 23px;
+        letter-spacing: 0.25px;
     }
 }
 
@@ -219,6 +243,34 @@
         padding-top: 5px;
         margin-bottom: 15px;
     }
+    .bloc-chiffres {
+        height: 654px;
+    }
+    .chiffres {
+        font-size: 60px;
+        letter-spacing: 0.67px;
+        padding-top: 34px;
+    }
+    .chiffres-infos {
+        font-size: 23px;
+        letter-spacing: 0.25px;
+    }
+}
+
+.bloc-chiffres {
+    background: #000000;
+}
+
+.chiffres {
+    font-family: Aller-Bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.chiffres-infos {
+    font-family: .SFNSDisplay;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .intro-mobile {
