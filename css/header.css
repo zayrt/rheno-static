@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "NexaBold";
+    src: url("../fonts/Nexa_Bold/NexaBold.ttf.eot") format("eot"), url("../fonts/Nexa_Bold/NexaBold.ttf.woff") format("woff"), url("../fonts/Nexa_Bold/NexaBold.ttf.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
 @media (min-width: 1200px) {
     header {
         height: 101px;
