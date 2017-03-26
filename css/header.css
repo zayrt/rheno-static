@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'Aller Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller Light'), url('Aller_Lt.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Aller';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Aller Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller Bold'), url('./fontsAller_Bd.woff') format('woff');
+}
+
 @media (min-width: 1200px) {
     header {
         height: 101px;
@@ -58,17 +79,10 @@ header ul {
     top: 40px;
 }
 
-@font-face {
-    font-family: 'Aller';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
-}
-
 header a {
     color: white;
     font-weight: bold;
-    font-family: Aller;
+    font-family: 'Aller';
     letter-spacing: 1px;
     font-size: 15px;
 }
@@ -126,7 +140,7 @@ header .dropdown-menu a:hover {
 }
 
 .my-breadcrumb {
-    font-family: Aller-Light;
+    font-family: 'Aller Light';
     color: #2D2D2D;
     letter-spacing: 0.08px;
     margin-left: 20px;

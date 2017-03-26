@@ -1,17 +1,3 @@
-@font-face {
-    font-family: 'Aller Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aller Light'), url('Aller_Lt.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aller';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
-}
-
 @media (min-width: 1200px) {
     .actu-background {
         height: 530px;
@@ -97,7 +83,7 @@
 }
 
 .actu-date {
-    font-family: Aller-Bold;
+    font-family: 'Aller Bold';
     font-size: 50px;
     color: #C3C3C3;
     letter-spacing: 0.42px;
@@ -105,7 +91,7 @@
 }
 
 .actu-subtitle {
-    font-family: Aller-Bold;
+    font-family: 'Aller Bold';
     font-size: 25px;
     color: #000000;
     letter-spacing: -0.09px;
@@ -142,7 +128,7 @@
 }
 
 .my-pagination {
-    font-family: Aller-Bold;
+    font-family: 'Aller Bold';
     font-size: 18px;
     color: black;
     letter-spacing: 0.15px;

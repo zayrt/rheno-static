@@ -1,17 +1,3 @@
-@font-face {
-    font-family: 'Aller Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aller Light'), url('Aller_Lt.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aller';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
-}
-
 @media (min-width: 1200px) {
     .list-product {
         font-size: 25px;
@@ -84,7 +70,7 @@
 }
 
 .subtitle {
-    font-family: Aller-Light;
+    font-family: 'Aller Light';
     color: #000000;
     letter-spacing: 0.42px;
 }
@@ -103,7 +89,7 @@
 }
 
 .list-product {
-    font-family: Aller;
+    font-family: 'Aller';
     color: #000000;
     letter-spacing: 0.25px;
     list-style-type: none;

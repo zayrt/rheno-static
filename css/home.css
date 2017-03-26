@@ -114,7 +114,7 @@
         width: 190px;
     }
     .title-circle {
-        font-family: Aller;
+        font-family: 'Aller';
         font-size: 16px;
         letter-spacing: 0.17px;
         padding-top: 5px;
@@ -238,7 +238,7 @@
         left: 35px;
     }
     .title-circle {
-        font-family: Aller;
+        font-family: 'Aller';
         font-size: 20px;
         color: #000000;
         letter-spacing: 0.17px;
@@ -269,7 +269,7 @@
 }
 
 .chiffres {
-    font-family: Aller-Bold;
+    font-family: 'Aller Bold';
     color: #FFFFFF;
     text-align: center;
 }
@@ -307,7 +307,7 @@
 
 .title-circle {
     text-align: center;
-    font-family: Aller;
+    font-family: 'Aller';
     color: #000000;
 }
 

@@ -1,19 +1,5 @@
-@font-face {
-    font-family: 'Aller Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aller Light'), url('Aller_Lt.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aller';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aller'), url('./fonts/Aller_Rg.woff') format('woff');
-}
-
 .actu-date {
-    font-family: Aller-Bold;
+    font-family: 'Aller Bold';
     font-size: 50px;
     color: #C3C3C3;
     letter-spacing: 0.42px;
@@ -22,7 +8,7 @@
 }
 
 .side-date {
-    font-family: Aller-Bold;
+    font-family: 'Aller Bold';
     font-size: 30px;
     color: #C3C3C3;
     letter-spacing: 0.25px;
@@ -31,7 +17,7 @@
 }
 
 .actu-title {
-    font-family: Aller-Bold;
+    font-family: 'Aller Bold';
     font-size: 45px;
     color: #292929;
     letter-spacing: 0.38px;
@@ -40,7 +26,7 @@
 }
 
 .side-title {
-    font-family: Aller-Bold;
+    font-family: 'Aller Bold';
     font-size: 20px;
     color: #000000;
     letter-spacing: -0.19px;
@@ -48,7 +34,7 @@
 }
 
 .actu-desc {
-    font-family: Aller-Light;
+    font-family: 'Aller Light';
     font-size: 15px;
     color: #292929;
     letter-spacing: 0.13px;
