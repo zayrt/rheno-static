@@ -319,3 +319,57 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+.btn-actu {
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: Aller;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0.17px;
+    line-height: 39px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 68px;
+}
+
+.btn-actu-mob {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: Aller;
+    font-size: 20px;
+    letter-spacing: 0.17px;
+    height: 40px;
+    width: 100%;
+    background: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.home-contact {
+    font-family: Aller;
+    font-size: 33px;
+    color: #D0011B;
+    letter-spacing: 1px;
+    padding-top: 40px;
+}
+
+.contact-infos {
+    font-family: Aller-Light;
+    font-size: 17px;
+    color: #000000;
+    letter-spacing: 0.17px;
+    line-height: 36px;
+}
+
+.btn-devis {
+    background-image: linear-gradient(-90deg, #001061 0%, #3571F4 100%);
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 60px;
+    font-family: Aller;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0.15px;
+    height: 50px;
+    width: 260px;
+}

@@ -42,14 +42,6 @@
     margin-bottom: 10px;
 }
 
-.thumbnail {
-    border: none;
-    box-shadow: none;
-    border-radius: none;
-    width: 100%;
-    margin-bottom: 0px;
-}
-
 .side-container {
     height: 1120px;
     margin-left: 60px;
