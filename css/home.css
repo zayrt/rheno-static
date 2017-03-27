@@ -350,7 +350,7 @@
     }
 }
 
-.circle:hover {
+/*.circle:hover {
     -webkit-animation-name: spinner;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: 3s;
@@ -363,7 +363,7 @@
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
-}
+}*/
 
 .title-circle {
     text-align: center;

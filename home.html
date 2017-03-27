@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-horizon/0.1.1/bootstrap-horizon.min.css">
     <!-- Optional theme -->
@@ -16,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="./css/home.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./bower_components/jquery-flipper/dist/jquery-flipper.min.js"></script>
 </head>
 
 <body>
@@ -84,11 +86,20 @@
             <div class="col-lg-9 col-lg-offset-1 bloc-circle">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1 col-xs-12 bloc-c1">
-                        <div class="circle c1">
-                            <img class="atiquette" src="./images/home/atiquette.svg" />
-                            <img class="huile" style="display:none;" src="./images/home/huile.png" />
-                            <img class="bitmap" style="display:none;" src="./images/home/bitmap.png" />
-                        </div>
+                        <section class="" id="circle1">
+                            <!-- There should be two elements inside the flipper -->
+                            <section class="front">
+                                <div class="circle c1">
+                                    <img class="atiquette" src="./images/home/atiquette.svg" />
+                                </div>
+                            </section>
+                            <section class="back">
+                                <div class="circle c1">
+                                    <img class="huile" src="./images/home/huile.png" />
+                                    <img class="bitmap" src="./images/home/bitmap.png" />
+                                </div>
+                            </section>
+                        </section>
                         <div class="title-circle">
                             ETIQUETTES ADHÉSIVES ET NON ADHÉSIVES
                         </div>
@@ -313,18 +324,14 @@
 
 </html>
 <script>
-$(".c1").hover(function() {
-    setTimeout(function() {
-        if ($(".atiquette").is(':visible')) {
-            $(".atiquette").hide();
-            $(".huile").show();
-            $(".bitmap").show();
-        } else if ($(".atiquette").is(':hidden')) {
-            $(".atiquette").show();
-            $(".huile").hide();
-            $(".bitmap").hide();
-        };
-    }, 3000);
 
+$(document).ready(function() {
+$('#circle1').flipper({
+    rotationType: 'left',
+    depth: 1000,
+    speed: 2,
+    eventListener: 'hover'
+});
+$('#circle1').removeClass("container");
 });
 </script>

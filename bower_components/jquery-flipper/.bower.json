@@ -1,0 +1,35 @@
+{
+  "name": "jquery-flipper",
+  "version": "2.0.0",
+  "homepage": "https://github.com/cameronjroe/jquery-flipper",
+  "authors": [
+    "Cameron J Roe <cameronjroe@gmail.com>"
+  ],
+  "description": "A simple way to add a CSS3 flip effect to your content.",
+  "main": "dist/jquery-flipper.min.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "~1.11.4"
+  },
+  "devDependencies": {
+    "jasmine-jquery": "~2.1.0"
+  },
+  "_release": "2.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.0",
+    "commit": "a679c802c154359a9f71c69046d51ad5645a6c5e"
+  },
+  "_source": "https://github.com/cameronjroe/jquery-flipper.git",
+  "_target": "^2.0.0",
+  "_originalSource": "jquery-flipper",
+  "_direct": true
+}
