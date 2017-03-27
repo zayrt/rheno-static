@@ -85,6 +85,17 @@
         font-size: 20px;
         letter-spacing: 0.25px;
     }
+    .huile {
+        position: relative;
+        top: -15px;
+        height: 170px;
+    }
+    .bitmap {
+        height: 140px;
+        position: relative;
+        top: -110px;
+        left: 30px;
+    }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
@@ -315,6 +326,43 @@
     border-color: white;
     margin-left: auto;
     margin-right: auto;
+}
+
+@-webkit-keyframes spinner {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(-180deg);
+    }
+}
+
+@keyframes spinner {
+    from {
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to {
+        -moz-transform: rotateY(-90deg);
+        -ms-transform: rotateY(-90deg);
+        transform: rotateY(-90deg);
+    }
+}
+
+.circle:hover {
+    -webkit-animation-name: spinner;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 3s;
+    -webkit-animation-duration: 3s;
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: 3s;
+    animation-duration: 3s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 .title-circle {
