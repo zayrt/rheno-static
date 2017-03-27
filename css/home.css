@@ -179,6 +179,12 @@
         font-size: 23px;
         letter-spacing: 0.25px;
     }
+    .home-contact {
+        text-align: center;
+    }
+    .contact-infos {
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
@@ -372,4 +378,71 @@
     letter-spacing: 0.15px;
     height: 50px;
     width: 260px;
+}
+
+.btn-send {
+    background-color: #FFFFFF;
+    border: 1px solid #3F60FF;
+    font-family: Aller;
+    font-size: 18px;
+    color: #3F60FF;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 100%;
+}
+
+.input-contact {
+    background-color: #FFFFFF;
+    border: 1px solid #3F60FF;
+    font-family: Aller;
+    font-size: 18px;
+    color: #3F60FF;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-height {
+    height: 54px;
+}
+
+.textarea-height {
+    height: 245px;
+    padding-top: 10px;
+}
+
+.input-contact::-webkit-input-placeholder {
+    font-family: GillSans-Light;
+    font-size: 16px;
+    color: #3F60FF;
+    letter-spacing: 0.13px;
+    line-height: 28px;
+    padding-left: 5px;
+}
+
+.input-contact:-moz-placeholder {
+    font-family: GillSans-Light;
+    font-size: 16px;
+    color: #3F60FF;
+    letter-sspacing: 0.13px;
+    line-height: 28px;
+    padding-left: 5px;
+}
+
+.input-contact::-moz-placeholder {
+    font-family: GillSans-Light;
+    font-size: 16px;
+    color: #3F60FF;
+    letter-spacing: 0.13px;
+    line-height: 28px;
+    padding-left: 5px;
+}
+
+.input-contact:-ms-input-placeholder {
+    font-family: GillSans-Light;
+    font-size: 16px;
+    color: #3F60FF;
+    letter-spacing: 0.13px;
+    line-height: 28px;
+    padding-left: 5px;
 }
