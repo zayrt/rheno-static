@@ -234,9 +234,11 @@
                     </p>
                 </div>
                 <br/>
-                <button class="btn-devis">DEMANDE DE DEVIS</button>
+                <div class="hidden-md hidden-sm hidden-xs">
+                    <button class="btn-devis">DEMANDE DE DEVIS</button>
+                </div>
             </div>
-            <div class="col-lg-6 col-lg-offset-1">
+            <div class="col-lg-6 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                 <form style="padding-top: 50px;">
                     <input class="input-contact input-height" type="text" name="name" placeholder="Nom/prénom*">
                     <br/>
@@ -245,14 +247,66 @@
                     <input class="input-contact input-height" type="text" name="email" placeholder="Email*">
                     <br/>
                     <textarea class="input-contact textarea-height" placeholder="Votre demande*"></textarea>
-                    <div class="col-lg-6 col-lg-offset-3">
-                    <button class="btn-send bloc-center">ENVOYER</button>
+                    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                        <button class="btn-send bloc-center">ENVOYER</button>
+                    </div>
+                    <div class="hidden-lg col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                        <button class="btn-devis bloc-center">DEMANDE DE DEVIS</button>
+                        <div class="hidden-md hidden-sm">
+                        <img class="bloc-center" src="./images/white-arrow.svg" style="margin-bottom: 30px;" height="41"/>
+                        </div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
     </div>
+    <!-- Fin accueil -->
+    <footer>
+        <div class="container-fluid footer-padding">
+            <div class="col-lg-4 col-md-2 col-sm-2 col-xs-12">
+                <img class="logo-footer bloc-center" src="./images/logo.svg" />
+            </div>
+            <div class="col-lg-4 hidden-md hidden-sm hidden-xs">
+                <a href="#"><img class="arrow-footer bloc-center" src="./images/footer-arrow.svg" /></a>
+                <p class="copyright bloc-center">
+                    RHENO Plastiques &amp; Papiers © Copyright 2016 | Informations Légales
+                </p>
+            </div>
+            <div class="hidden-lg col-md-8 col-sm-8 col-xs-12">
+                <div class="row middle-bloc-footer">
+                    <div class="col-md-12 col-sm-12 hidden-xs">
+                        <ul class="list-inline bloc-center">
+                            <li class="li-footer"><a class="link-footer" href="#">A PROPOS</a></li>
+                            <li class="li-footer"><a class="link-footer" href="#">FAQ</a></li>
+                            <li class="li-footer"><a class="link-footer" href="#">CGV / CGU</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-8 col-xs-offset-1 hidden-md hidden-sm">
+                        <ul class="remove-list-type text-center" style="margin-left: 10%;">
+                            <li class="li-footer"><a class="link-footer" href="#">A PROPOS</a></li>
+                            <li class="li-footer"><a class="link-footer" href="#">FAQ</a></li>
+                            <li class="li-footer"><a class="link-footer" href="#">CGV / CGU</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <p class="copyright bloc-center">RHENO Plastiques &amp; Papiers © Copyright 2016 | Informations Légales</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-lg col-md-2 col-sm-2 hidden-xs">
+                <a href="#"><img class="arrow-tab-footer bloc-center" src="./images/footer-arrow.svg" /></a>
+            </div>
+            <div class="col-lg-2 col-lg-offset-2 hidden-md hidden-sm hidden-xs">
+                <ul class="remove-list-type">
+                    <li class="li-footer"><a class="link-footer" href="#">A PROPOS</a></li>
+                    <li class="li-footer"><a class="link-footer" href="#">FAQ</a></li>
+                    <li class="li-footer"><a class="link-footer" href="#">CGV / CGU</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Fin Footer -->
 </body>
 
 </html>

@@ -264,6 +264,12 @@
         font-size: 23px;
         letter-spacing: 0.25px;
     }
+    .home-contact {
+        text-align: center;
+    }
+    .contact-infos {
+        text-align: center;
+    }
 }
 
 .middle-home {
@@ -377,7 +383,8 @@
     color: #FFFFFF;
     letter-spacing: 0.15px;
     height: 50px;
-    width: 260px;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .btn-send {
@@ -389,6 +396,7 @@
     letter-spacing: 1px;
     height: 50px;
     width: 100%;
+    margin-bottom: 25px;
 }
 
 .input-contact {
