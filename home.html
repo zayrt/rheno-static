@@ -99,10 +99,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="title-circle">
+                        <div id="title-eti" class="title-circle">
                             ETIQUETTES ADHÉSIVES ET NON ADHÉSIVES
                         </div>
-                        <div class="hidden-md hidden-sm hidden-xs rectangle">
+                        <div id="rect-eti" class="hidden-md hidden-sm hidden-xs rectangle">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
@@ -122,10 +122,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="title-circle">
+                        <div id="title-com" class="title-circle">
                             COMMUNICATION VISUELLE
                         </div>
-                        <div class="hidden-md hidden-sm hidden-xs rectangle">
+                        <div id="rect-com" class="hidden-md hidden-sm hidden-xs rectangle">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
@@ -143,10 +143,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="title-circle">
+                        <div id="title-four" class="title-circle">
                             FOURNITURES DE BUREAU
                         </div>
-                        <div class="hidden-md hidden-sm hidden-xs rectangle">
+                        <div id="rect-four" class="hidden-md hidden-sm hidden-xs rectangle">
                         </div>
                     </div>
                 </div>
@@ -344,6 +344,25 @@
 </html>
 <script>
 $(document).ready(function() {
+    $("#title-eti").mouseover(function() {
+        $('#rect-eti').css("background-image", "linear-gradient(90deg, #003BBD 12%, #3D70FD 91%)");
+    });
+    $("#title-eti").mouseout(function() {
+        $('#rect-eti').css("background-image", "none");
+    });
+    $("#title-com").mouseover(function() {
+        $('#rect-com').css("background-image", "linear-gradient(90deg, #70000D 18%, #F0001D 100%)");
+    });
+    $("#title-com").mouseout(function() {
+        $('#rect-com').css("background-image", "none");
+    });
+    $("#title-four").mouseover(function() {
+        $('#rect-four').css("background-image", "linear-gradient(90deg, #F76B1C 8%, #FBDA61 100%)");
+    });
+    $("#title-four").mouseout(function() {
+        $('#rect-four').css("background-image", "none");
+    });
+
     $("#circle1").mouseover(function() {
         $('.huile').show();
         $('.bitmap').show();
