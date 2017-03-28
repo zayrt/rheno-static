@@ -94,8 +94,8 @@
                             </div>
                             <div class="back">
                                 <div class="circle c1">
-                                    <img class="huile" style="display: none;" src="./images/home/huile.png" />
-                                    <img class="bitmap" style="display: none;" src="./images/home/bitmap.png" />
+                                    <img class="huile" src="./images/home/huile.png" />
+                                    <img class="bitmap" src="./images/home/bitmap.png" />
                                 </div>
                             </div>
                         </div>
@@ -116,6 +116,9 @@
                             </div>
                             <div class="back">
                                 <div class="circle c2">
+                                    <img class="chapelier" src="./images/home/chapelier-fou.png" />
+                                    <img class="couleur" src="./images/home/couleur-fille.png" />
+                                    <img class="bitmap2" src="./images/home/bitmap2.png" />
                                 </div>
                             </div>
                         </div>
@@ -136,6 +139,7 @@
                             </div>
                             <div class="back">
                                 <div class="circle c3">
+                                    <img class="fourniture" src="./images/home/fourniture.png" />
                                 </div>
                             </div>
                         </div>
@@ -347,6 +351,22 @@ $(document).ready(function() {
     $("#circle1").mouseout(function() {
         $('.huile').hide();
         $('.bitmap').hide();
+    });
+    $("#circle2").mouseover(function() {
+        $('.chapelier').show();
+        $('.couleur').show();
+        $('.bitmap2').show();
+    });
+    $("#circle2").mouseout(function() {
+        $('.chapelier').hide();
+        $('.couleur').hide();
+        $('.bitmap2').hide();
+    });
+    $("#circle3").mouseover(function() {
+        $('.fourniture').show();
+    });
+    $("#circle3").mouseout(function() {
+        $('.fourniture').hide();
     });
     $('#circle1').flip({
         trigger: 'hover'
