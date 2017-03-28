@@ -18,6 +18,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.1.2/jquery.flip.min.js"></script>
+    <script src="./js/application.js"></script>
 </head>
 
 <body>
@@ -367,74 +368,8 @@
 </html>
 <script>
 $(document).ready(function() {
-    $("#div-menu").click(function() {
-        $("#header-mobile").slideToggle(300);
-        if ($("#mobile-menu").is(":visible")) {
-            $('#mobile-menu').hide();
-            $('#cross-mobile-menu').css("display", "block");
-        }
-        else {
-            $('#mobile-menu').css("display", "block");
-            $('#cross-mobile-menu').hide();
-        }
-
-    });
-    // slide menu mobile
-
-
-    $("#title-eti").mouseover(function() {
-        $('#rect-eti').css("background-image", "linear-gradient(90deg, #003BBD 12%, #3D70FD 91%)");
-    });
-    $("#title-eti").mouseout(function() {
-        $('#rect-eti').css("background-image", "none");
-    });
-    $("#title-com").mouseover(function() {
-        $('#rect-com').css("background-image", "linear-gradient(90deg, #70000D 18%, #F0001D 100%)");
-    });
-    $("#title-com").mouseout(function() {
-        $('#rect-com').css("background-image", "none");
-    });
-    $("#title-four").mouseover(function() {
-        $('#rect-four').css("background-image", "linear-gradient(90deg, #F76B1C 8%, #FBDA61 100%)");
-    });
-    $("#title-four").mouseout(function() {
-        $('#rect-four').css("background-image", "none");
-    });
-    // hover des titres couleurs des rectangles
-
-    $("#circle1").mouseover(function() {
-        $('.huile').show();
-        $('.bitmap').show();
-    });
-    $("#circle1").mouseout(function() {
-        $('.huile').hide();
-        $('.bitmap').hide();
-    });
-    $("#circle2").mouseover(function() {
-        $('.chapelier').show();
-        $('.couleur').show();
-        $('.bitmap2').show();
-    });
-    $("#circle2").mouseout(function() {
-        $('.chapelier').hide();
-        $('.couleur').hide();
-        $('.bitmap2').hide();
-    });
-    $("#circle3").mouseover(function() {
-        $('.fourniture').show();
-    });
-    $("#circle3").mouseout(function() {
-        $('.fourniture').hide();
-    });
-    $('#circle1').flip({
-        trigger: 'hover'
-    });
-    $('#circle2').flip({
-        trigger: 'hover'
-    });
-    $('#circle3').flip({
-        trigger: 'hover'
-    });
-    // hover des cercles
+    show_mobile_header();
+    hover_home_title();
+    flip_home_circle();
 });
 </script>
