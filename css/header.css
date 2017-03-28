@@ -115,6 +115,11 @@ header a:not(:hover) {
     }
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
 header .dropdown-menu {
     width: 40px;
     border-radius: 0px;
