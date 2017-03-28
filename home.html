@@ -94,8 +94,8 @@
                             </div>
                             <div class="back">
                                 <div class="circle c1">
-                                    <img class="huile" src="./images/home/huile.png" />
-                                    <img class="bitmap" src="./images/home/bitmap.png" />
+                                    <img class="huile" style="display: none;" src="./images/home/huile.png" />
+                                    <img class="bitmap" style="display: none;" src="./images/home/bitmap.png" />
                                 </div>
                             </div>
                         </div>
@@ -332,21 +332,19 @@
 </html>
 <script>
 $(document).ready(function() {
-    // $('#circle1').flipper({
-    //     rotationType: 'left',
-    //     depth: 1000,
-    //     speed: 2,
-    //     eventListener: 'hover'
-    // });
-    // $('#circle1').removeClass("container");
-    // $('#circle2').flipper({
-    //     rotationType: 'left',
-    //     depth: 1000,
-    //     speed: 2,
-    //     eventListener: 'hover'
-    // });
-    // $('#circle2').removeClass("container");
-    $('#circle1').flip({trigger: 'hover'});
-    $('#circle2').flip({trigger: 'hover'});
+    $("#circle1").mouseover(function() {
+        $('.huile').show();
+        $('.bitmap').show();
+    });
+    $("#circle1").mouseout(function() {
+        $('.huile').hide();
+        $('.bitmap').hide();
+    });
+    $('#circle1').flip({
+        trigger: 'hover'
+    });
+    $('#circle2').flip({
+        trigger: 'hover'
+    });
 });
 </script>
