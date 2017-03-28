@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="./css/home.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="./bower_components/jquery-flipper/dist/jquery-flipper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.1.2/jquery.flip.min.js"></script>
 </head>
 
 <body>
@@ -86,20 +86,19 @@
             <div class="col-lg-9 col-lg-offset-1 bloc-circle">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1 col-xs-12 bloc-c1">
-                        <section class="" id="circle1">
-                            <!-- There should be two elements inside the flipper -->
-                            <section class="front">
+                        <div id="circle1">
+                            <div class="front">
                                 <div class="circle c1">
                                     <img class="atiquette" src="./images/home/atiquette.svg" />
                                 </div>
-                            </section>
-                            <section class="back">
+                            </div>
+                            <div class="back">
                                 <div class="circle c1">
                                     <img class="huile" src="./images/home/huile.png" />
                                     <img class="bitmap" src="./images/home/bitmap.png" />
                                 </div>
-                            </section>
-                        </section>
+                            </div>
+                        </div>
                         <div class="title-circle">
                             ETIQUETTES ADHÉSIVES ET NON ADHÉSIVES
                         </div>
@@ -107,10 +106,18 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-                        <div class="circle c2">
-                            <img class="affiche" src="./images/home/affiche.svg" />
-                            <img class="pub" src="./images/home/pub.svg" />
-                            <img class="rouleau" src="./images/home/rouleau.svg" />
+                        <div id="circle2">
+                            <div class="front">
+                                <div class="circle c2">
+                                    <img class="affiche" src="./images/home/affiche.svg" />
+                                    <img class="pub" src="./images/home/pub.svg" />
+                                    <img class="rouleau" src="./images/home/rouleau.svg" />
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="circle c2">
+                                </div>
+                            </div>
                         </div>
                         <div class="title-circle">
                             COMMUNICATION VISUELLE
@@ -324,14 +331,22 @@
 
 </html>
 <script>
-
 $(document).ready(function() {
-$('#circle1').flipper({
-    rotationType: 'left',
-    depth: 1000,
-    speed: 2,
-    eventListener: 'hover'
-});
-$('#circle1').removeClass("container");
+    // $('#circle1').flipper({
+    //     rotationType: 'left',
+    //     depth: 1000,
+    //     speed: 2,
+    //     eventListener: 'hover'
+    // });
+    // $('#circle1').removeClass("container");
+    // $('#circle2').flipper({
+    //     rotationType: 'left',
+    //     depth: 1000,
+    //     speed: 2,
+    //     eventListener: 'hover'
+    // });
+    // $('#circle2').removeClass("container");
+    $('#circle1').flip({trigger: 'hover'});
+    $('#circle2').flip({trigger: 'hover'});
 });
 </script>
