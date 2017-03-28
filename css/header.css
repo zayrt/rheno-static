@@ -58,6 +58,9 @@
         position: relative;
         top: 17px;
     }
+    #header-mobile {
+        top: 56px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -73,6 +76,15 @@
         position: relative;
         top: 6px;
     }
+    #header-mobile {
+        top: 36px;
+    }
+}
+
+header #cross-mobile-menu {
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
 }
 
 header #mobile-menu {
@@ -118,7 +130,7 @@ header a:not(:hover) {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
- }
+}
 
 header .dropdown-menu {
     width: 40px;
@@ -166,4 +178,19 @@ header .dropdown-menu a:hover {
     border: none;
     box-shadow: none;
     border-radius: none;
+}
+
+#header-mobile {
+    position: absolute;
+    background: black;
+    width: 100%;
+    text-align: center;
+    display: none;
+    z-index: 9999;
+}
+
+#header-mobile ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    top: 0px;
 }
