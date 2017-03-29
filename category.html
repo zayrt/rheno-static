@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="./css/category.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./js/application.js"></script>
 </head>
 
 <body>
@@ -58,9 +59,32 @@
                     </div>
                     <div id="div-menu" class="hidden-lg col-md-2 col-sm-2 col-xs-2 col-md-offset-4 col-sm-offset-4 col-xs-offset-4">
                         <img id="mobile-menu" src="./images/mobile-menu.svg" />
+                        <img id="cross-mobile-menu" src="./images/cross-menu-mob.svg" />
                     </div>
                     <div id="search" class="col-lg-1 col-md-1 col-sm-1 col-lg-offset-1 col-md-offset-4 col-sm-offset-4 hidden-xs">
                         <a href="#"><img class="bloc-center" src="./images/search.svg" width="25,54px" height="26" /></a>
+                    </div>
+                    <div id="header-mobile">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">SOCIÉTÉ</a>
+                            </li><br/>
+                            <li>
+                                <a href="#">PRODUITS</a>
+                            </li><br/>
+                            <li>
+                                <a href="#">PARTENAIRES</a>
+                            </li><br/>
+                            <li>
+                                <a href="#">ACTUALITÉS</a>
+                            </li><br/>
+                            <li>
+                                <a href="#">ENGAGEMENTS</a>
+                            </li><br/>
+                            <li>
+                                <a href="#">CONTACT</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -182,3 +206,8 @@
 </body>
 
 </html>
+<script>
+$(document).ready(function() {
+    show_mobile_header();
+});
+</script>
