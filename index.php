@@ -14,3 +14,6 @@
 <div>
 <a href="/home.html">Accueil</a>
 </div>
+<div>
+<a href="/qui-sommes-nous.html">Qui sommes nous?</a>
+</div>

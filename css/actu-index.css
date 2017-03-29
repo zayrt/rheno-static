@@ -8,8 +8,11 @@
     .actu-title {
         height: 80px;
         position: absolute;
-        bottom: 0px;
+        bottom: -42px;
         left: 90px;
+        font-size: 80px;
+        letter-spacing: 0.83px;
+        line-height: 39px;
     }
     .actu-img > img {
         height: 212px;
@@ -26,8 +29,11 @@
     .actu-title {
         height: 80px;
         position: absolute;
-        bottom: 0px;
+        bottom: -45px;
         left: 90px;
+        font-size: 70px;
+        letter-spacing: 0.58px;
+        line-height: 39px;
     }
     .actu-img > img {
         height: 340px;
@@ -45,10 +51,13 @@
         height: 245px;
     }
     .actu-title {
-        height: 70px;
+        height: 80px;
         position: absolute;
-        bottom: 0px;
-        left: 70px;
+        bottom: -53px;
+        left: 90px;
+        font-size: 50px;
+        letter-spacing: 0.58px;
+        line-height: 39px;
     }
 }
 
@@ -62,9 +71,14 @@
     .actu-title {
         height: 28px;
         position: absolute;
-        bottom: 0px;
+        bottom: -6px;
         left: 13px;
     }
+}
+
+.actu-title {
+    font-family: Aller-Bold;
+    color: #FFFFFF;
 }
 
 .actu-background {
