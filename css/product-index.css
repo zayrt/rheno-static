@@ -20,6 +20,8 @@
     .btn-gammes {
         width: 286px;
         height: 51px;
+        position: relative;
+        left: -25px;
     }
 }
 
