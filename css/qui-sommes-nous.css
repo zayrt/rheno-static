@@ -190,7 +190,6 @@
     position: relative;
 }
 
-
 .timeline > li > .timeline-badge {
     width: 36px;
     height: 36px;
@@ -245,19 +244,21 @@
 
 @media (max-width: 767px) {
     ul.timeline:before {
-        left: 40px;
+        left: 95%;
     }
     ul.timeline > li > .timeline-panel {
-        width: calc(100% - 90px);
-        width: -moz-calc(100% - 90px);
-        width: -webkit-calc(100% - 90px);
+        width: calc(100% - 60px);
+        width: -moz-calc(100% - 60px);
+        width: -webkit-calc(100% - 60px);
     }
     ul.timeline > li > .timeline-badge {
-        left: 22px;
-        margin-left: 0;
+        left: 95%;
         top: 16px;
     }
     ul.timeline > li > .timeline-panel {
-        float: right;
+        float: left;
+    }
+    .timeline > li.timeline-inverted > .timeline-panel {
+        float: none;
     }
 }
