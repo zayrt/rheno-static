@@ -34,34 +34,16 @@ function hover_home_title() {
 
 function flip_home_circle() {
     $("#circle1").on('flip:done', function() {
-        if ($('.huile').is(":visible")) {
-            $('.huile').hide();
-            $('.bitmap').hide();
-        } else {
-            $('.huile').show();
-            $('.bitmap').show();
-        }
-
+        $('.huile').fadeToggle("slow");
+        $('.bitmap').fadeToggle("slow");
     });
-    // $("#circle1").mouseout(function() {
-    //     $('.huile').hide();
-    //     $('.bitmap').hide();
-    // });
-    $("#circle2").mouseover(function() {
-        $('.chapelier').show();
-        $('.couleur').show();
-        $('.bitmap2').show();
+    $("#circle2").on('flip:done',function() {
+        $('.chapelier').fadeToggle("slow");
+        $('.couleur').fadeToggle("slow");
+        $('.bitmap2').fadeToggle("slow");
     });
-    $("#circle2").mouseout(function() {
-        $('.chapelier').hide();
-        $('.couleur').hide();
-        $('.bitmap2').hide();
-    });
-    $("#circle3").mouseover(function() {
-        $('.fourniture').show();
-    });
-    $("#circle3").mouseout(function() {
-        $('.fourniture').hide();
+    $("#circle3").on('flip:done',function() {
+        $('.fourniture').fadeToggle("slow");
     });
     $('#circle1').flip({
         trigger: 'hover',
