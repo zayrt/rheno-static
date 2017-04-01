@@ -17,3 +17,6 @@
 <div>
 <a href="/qui-sommes-nous.html">Qui sommes nous?</a>
 </div>
+<div>
+<a href="/partenaires.html">Partenaires</a>
+</div>
