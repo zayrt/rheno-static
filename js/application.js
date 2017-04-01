@@ -33,14 +33,20 @@ function hover_home_title() {
 }
 
 function flip_home_circle() {
-    $("#circle1").mouseover(function() {
-        $('.huile').show();
-        $('.bitmap').show();
+    $("#circle1").on('flip:done', function() {
+        if ($('.huile').is(":visible")) {
+            $('.huile').hide();
+            $('.bitmap').hide();
+        } else {
+            $('.huile').show();
+            $('.bitmap').show();
+        }
+
     });
-    $("#circle1").mouseout(function() {
-        $('.huile').hide();
-        $('.bitmap').hide();
-    });
+    // $("#circle1").mouseout(function() {
+    //     $('.huile').hide();
+    //     $('.bitmap').hide();
+    // });
     $("#circle2").mouseover(function() {
         $('.chapelier').show();
         $('.couleur').show();
@@ -58,12 +64,15 @@ function flip_home_circle() {
         $('.fourniture').hide();
     });
     $('#circle1').flip({
-        trigger: 'hover'
+        trigger: 'hover',
+        speed: 1000
     });
     $('#circle2').flip({
-        trigger: 'hover'
+        trigger: 'hover',
+        speed: 1000
     });
     $('#circle3').flip({
-        trigger: 'hover'
+        trigger: 'hover',
+        speed: 1000
     });
 }
