@@ -1,0 +1,183 @@
+@media (min-width: 1200px) {
+    .enga-background {
+        height: 530px;
+    }
+    .enga-title {
+        height: 80px;
+        position: absolute;
+        bottom: -42px;
+        left: 90px;
+        font-size: 80px;
+        letter-spacing: 0.83px;
+        line-height: 39px;
+    }
+    .left > img {
+        position: absolute;
+        top: 50%;
+        left: 0px;
+    }
+    .right > img {
+        position: absolute;
+        top: 50%;
+        right: 5px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1199px) {
+    .enga-background {
+        height: 450px;
+    }
+    .enga-subtitle {
+        height: 115px;
+    }
+    .enga-title {
+        height: 80px;
+        position: absolute;
+        bottom: -45px;
+        left: 90px;
+        font-size: 70px;
+        letter-spacing: 0.58px;
+        line-height: 39px;
+    }
+    .enga-img > img {
+        height: 340px;
+    }
+    .left > img {
+        position: absolute;
+        top: 85%;
+        left: 10%;
+    }
+    .right > img {
+        position: absolute;
+        top: 85%;
+        right: 10%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+    .enga-background {
+        height: 308px;
+    }
+    .enga-subtitle {
+        height: 135px;
+    }
+    .enga-title {
+        height: 80px;
+        position: absolute;
+        bottom: -53px;
+        left: 90px;
+        font-size: 50px;
+        letter-spacing: 0.58px;
+        line-height: 39px;
+    }
+    .left > img {
+        position: absolute;
+        top: 85%;
+        left: 5%;
+    }
+    .right > img {
+        position: absolute;
+        top: 85%;
+        right: 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .enga-background {
+        height: 220px;
+    }
+    .enga-subtitle {
+        margin-bottom: 30px;
+    }
+    .enga-title {
+        height: 28px;
+        position: absolute;
+        bottom: -6px;
+        left: 13px;
+    }
+    .left > img {
+        position: absolute;
+        top: 14%;
+        left: 5%;
+    }
+    .right > img {
+        position: absolute;
+        top: 14%;
+        right: 5%;
+    }
+    .guillemet1 {
+        position: relative;
+        top: -35px;
+    }
+    .guillemet2 {
+        position: relative;
+        top: -5px;
+    }
+    .carousel-inner {
+        position: relative;
+        top: -80px;
+    }
+}
+
+.enga-background {
+    background-image: url('../images/enga-background.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.enga-title {
+    font-family: Aller-Bold;
+    color: #FFFFFF;
+}
+
+.enga-desc {
+    text-align: justify;
+    font-family: Aller-Light;
+    font-size: 18px;
+    color: #292929;
+    letter-spacing: 0.15px;
+    margin-bottom: 40px;
+}
+
+#myCarousel {
+    margin-bottom: 100px;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+
+.desc-carousel {
+    font-family: Aller-Light;
+    font-size: 20px;
+    color: #292929;
+    letter-spacing: 0.17px;
+    text-align: justify;
+    margin-top: 33px;
+    margin-left: 37px;
+}
+
+.guillemet1 {
+    font-family: LucidaGrande;
+    font-size: 70px;
+    color: #D0011B;
+    letter-spacing: 0.58px;
+    height: 40px;
+    float: left;
+}
+
+.thumbnail > img {
+    margin-top: 30%;
+}
+
+.guillemet2 {
+    font-family: LucidaGrande;
+    font-size: 70px;
+    color: #D0011B;
+    letter-spacing: 0.58px;
+    height: 40px;
+    float: right;
+}
