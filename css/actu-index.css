@@ -77,7 +77,7 @@
 }
 
 .actu-title {
-    font-family: Aller-Bold;
+    font-family: 'Aller Bold';
     color: #FFFFFF;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .actu-desc {
-    font-family: Aller;
+    font-family: 'Aller';
     font-size: 13px;
     color: #787878;
     letter-spacing: 0.11px;
@@ -117,7 +117,7 @@
 
 .actu-read-more {
     margin-top: 20px;
-    font-family: Aller;
+    font-family: 'Aller';
     font-size: 20px;
     color: #3571F4;
     letter-spacing: 0.17px;

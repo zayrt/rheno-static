@@ -99,7 +99,7 @@
 .btn-product {
     border: 1px solid #000000;
     border-radius: 15px;
-    font-family: Aller;
+    font-family: 'Aller';
     font-size: 13px;
     color: #000000;
     background-color: #FFFFFF;
@@ -110,7 +110,7 @@
 .btn-gammes {
     border: 2px solid #FFCC08;
     border-radius: 60px;
-    font-family: Aller;
+    font-family: 'Aller';
     font-size: 18px;
     color: #F6A623;
     background-color: #FFFFFF;
@@ -121,7 +121,7 @@
     background-image: linear-gradient(90deg, #F76B1C 0%, #FBDA61 97%);
     box-shadow: 0 2px 9px 0 rgba(74, 74, 74, 0.50);
     border-radius: 60px;
-    font-family: Aller-Bold;
+    font-family: 'Aller-Bold';
     font-size: 18px;
     color: #FFFFFF;
     letter-spacing: 0.15px;
@@ -137,7 +137,7 @@
 
 .infos {
     color: black;
-    font-family: Aller Light;
+    font-family: 'Aller Light';
 }
 
 .line {
@@ -150,7 +150,7 @@
 
 .breadcrumbs a {
     color: black;
-    font-family: Aller Light;
+    font-family: 'Aller Light';
     font-size: 12px;
 }
 
@@ -163,18 +163,18 @@
 .category-title {
     color: #F6A623;
     font-size: 30px;
-    font-family: Aller Light;
+    font-family: 'Aller Light';
     margin-top: 20px;
 }
 
 .product-title {
     color: #373737;
     font-size: 40px;
-    font-family: Aller;
+    font-family: 'Aller';
 }
 
 .notes {
-    font-family: Aller Light;
+    font-family: 'Aller Light';
     color: #565656;
     font-size: 16px;
 }

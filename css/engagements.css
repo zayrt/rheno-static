@@ -203,13 +203,13 @@
 }
 
 .enga-title {
-    font-family: Aller-Bold;
+    font-family: 'Aller Bold';
     color: #FFFFFF;
 }
 
 .enga-desc {
     text-align: justify;
-    font-family: Aller-Light;
+    font-family: 'Aller Light';
     font-size: 18px;
     color: #292929;
     letter-spacing: 0.15px;
@@ -226,7 +226,7 @@
 }
 
 .desc-carousel {
-    font-family: Aller-Light;
+    font-family: 'Aller Light';
     font-size: 20px;
     color: #292929;
     letter-spacing: 0.17px;
