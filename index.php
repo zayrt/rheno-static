@@ -20,3 +20,6 @@
 <div>
 <a href="/partenaires.html">Partenaires</a>
 </div>
+<div>
+<a href="/engagements.html">Engagements</a>
+</div>
