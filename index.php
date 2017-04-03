@@ -23,3 +23,6 @@
 <div>
 <a href="/engagements.html">Engagements</a>
 </div>
+<div>
+<a href="/cgu.html">CGU</a>
+</div>

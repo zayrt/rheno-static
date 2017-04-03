@@ -1,0 +1,49 @@
+.breadcrumbs {
+    margin-top: 30px;
+}
+
+.breadcrumbs a {
+    color: black;
+    font-family: 'Aller Light';
+    font-size: 12px;
+}
+
+.cgu-title {
+    font-family: 'Aller';
+    font-size: 40px;
+    color: #292929;
+    letter-spacing: 0.33px;
+    line-height: 47px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.bloc-cgu {
+    background-color: #F5F5F5;
+    margin-bottom: 50px;
+}
+
+.content {
+    font-family: 'Aller';
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 1269px;
+    overflow-y: scroll;
+}
+
+.article {
+    font-family: 'Aller Bold';
+    font-size: 16px;
+}
+
+.content::-webkit-scrollbar {
+    border: 1px solid #3F60FF;
+    border-radius: 5px;
+    width: 30px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #3F60FF;
+    border: 1px solid #3F60FF;
+    border-radius: 5px;
+}
