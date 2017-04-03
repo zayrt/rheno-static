@@ -26,3 +26,6 @@
 <div>
 <a href="/cgu.html">CGU</a>
 </div>
+<div>
+<a href="/faq.html">FAS</a>
+</div>
