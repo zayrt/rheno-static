@@ -27,5 +27,8 @@
 <a href="/cgu.html">CGU</a>
 </div>
 <div>
-<a href="/faq.html">FAS</a>
+<a href="/faq.html">FAQ</a>
+</div>
+<div>
+<a href="/demande-devis.html">Demande devis</a>
 </div>

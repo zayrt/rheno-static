@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./css/header.css">
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
     <link rel="stylesheet" type="text/css" href="./css/product-index.css">
+    <link rel="stylesheet" type="text/css" href="./css/demande-devis.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="./js/application.js"></script>
@@ -104,6 +105,66 @@
                     /
                     <li class="lspace"><a href="#">Demande de devis</a></li>
                 </ul>
+            </div>
+        </div>
+        <div class="row bloc-devis" style="margin-top: 40px;">
+            <div class="bloc-intro">
+                <div class="col-lg-2 col-md-3 col-sm-3 col-md-offset-1 col-sm-offset-1 col-lg-offset-1 hidden-xs">
+                    <div class="thumbnail">
+                        <img src="./images/picto-tv-yellow.svg" />
+                    </div>
+                    <!-- <div class="thumbnail">
+                        <img src="./images/picto-tv-red.svg" />
+                    </div>
+                    <div class="thumbnail">
+                        <img src="./images/picto-tv-blue.svg" />
+                    </div> -->
+                </div>
+                <div class="col-lg-6 col-md-7 col-sm-7 bloc-title">
+                    <div class="devis-title">
+                        DEMANDE DE DEVIS
+                    </div>
+                    <div class="devis-subtitle">
+                        Recevez immédiatement le document
+                        <br/> "Demande de devis intercalaires personnalises", par E-mail !
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 col-lg-offset-1 form-style">
+                <div class="row">
+                    <form>
+                        <div class="col-lg-6">
+                            <select class="select-devis yellow yellow-arrow yellow-border" name="select">
+                                <option value="activite">Sélectionner l'activité</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-5">
+                            <input class="input-devis yellow-ph yellow-border" type="text" name="societe" placeholder="Société">
+                        </div>
+                        <div class="col-lg-6">
+                            <input class="input-devis yellow-ph yellow-border" type="text" name="name" placeholder="Nom/prénom*">
+                        </div>
+                        <div class="col-lg-5">
+                            <input class="input-devis yellow-ph yellow-border" type="text" name="ville" placeholder="Ville">
+                        </div>
+                        <div class="col-lg-6">
+                            <input class="input-devis yellow-ph yellow-border" type="text" name="email" placeholder="Email*">
+                        </div>
+                        <div class="col-lg-5">
+                            <input class="input-devis yellow-ph yellow-border" type="text" name="phone" placeholder="Téléphone">
+                        </div>
+                        <div class="col-lg-11">
+                            <textarea class="input-devis textarea-devis yellow-ph yellow-border" placeholder="Votre demande*"></textarea>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 hidden-xs">
+                            <button class="btn-send bloc-center">ENVOYER</button>
+                        </div>
+                        <div class="hidden-lg hidden-md hidden-sm col-xs-8 col-xs-offset-2">
+                            <button class="btn-send bloc-center">ENVOYER</button>
+                        </div>
+
+                    </form>
+                </div>
             </div>
         </div>
     </div>
