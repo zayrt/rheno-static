@@ -1,5 +1,14 @@
 @media (min-width: 1200px) {
-    .line {
+    .yellow-line {
+        border-bottom: 1px solid #FFCC08;
+        height: 92px;
+    }
+    .red-line {
+        border-bottom: 1px solid #F42425;
+        height: 92px;
+    }
+    .blue-line {
+        border-bottom: 1px solid #4464FF;
         height: 92px;
     }
     .infos {
@@ -26,7 +35,16 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-    .line {
+    .yellow-line {
+        border-bottom: 1px solid #FFCC08;
+        height: 42px;
+    }
+    .red-line {
+        border-bottom: 1px solid #F42425;
+        height: 42px;
+    }
+    .blue-line {
+        border-bottom: 1px solid #4464FF;
         height: 42px;
     }
     .menu {
@@ -108,17 +126,29 @@
 }
 
 .btn-gammes {
-    border: 2px solid #FFCC08;
     border-radius: 60px;
     font-family: 'Aller';
     font-size: 18px;
-    color: #F6A623;
     background-color: #FFFFFF;
     letter-spacing: 0.15px;
 }
 
+.yellow-gbtn {
+    border: 2px solid #FFCC08;
+    color: #F6A623;
+}
+
+.red-gbtn {
+    border: 2px solid #D4101F;
+    color: #D4101F;
+}
+
+.blue-gbtn {
+    border: 2px solid #3F60FF;
+    color: #3571F4;
+}
+
 .btn-devis {
-    background-image: linear-gradient(90deg, #F76B1C 0%, #FBDA61 97%);
     box-shadow: 0 2px 9px 0 rgba(74, 74, 74, 0.50);
     border-radius: 60px;
     font-family: 'Aller Bold';
@@ -140,10 +170,6 @@
     font-family: 'Aller Light';
 }
 
-.line {
-    border-bottom: 1px solid #FFCC08;
-}
-
 .breadcrumbs {
     margin-top: 9px;
 }
@@ -161,7 +187,6 @@
 }
 
 .category-title {
-    color: #F6A623;
     font-size: 30px;
     font-family: 'Aller Light';
     margin-top: 20px;

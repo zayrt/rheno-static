@@ -230,16 +230,16 @@
 }
 
 .yellow-arrow {
-	background: url('../images/yellow-select-arrow.svg') no-repeat right;
+	background: url('../images/demande-devis/yellow-select-arrow.svg') no-repeat right;
     background-position: 97%;
 }
 
 .red-arrow {
-	background: url('../images/red-select-arrow.svg') no-repeat right;
+	background: url('../images/demande-devis/red-select-arrow.svg') no-repeat right;
     background-position: 97%;
 }
 
 .blue-arrow {
-	background: url('../images/blue-select-arrow.svg') no-repeat right;
+	background: url('../images/demande-devis/blue-select-arrow.svg') no-repeat right;
     background-position: 97%;
 }
