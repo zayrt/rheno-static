@@ -109,11 +109,11 @@
         </div>
         <div class="row partenaires-bloc">
             <div class="col-lg-2 col-lg-offset-1 col-md-3 col-sm-3 col-md-offset-1 col-sm-offset-1">
-                <div class="thumbnail">
+                <div id="intercoat" class="thumbnail">
                     <img src="./images/partenaires/intercoat.png" />
                 </div>
             </div>
-            <div class="hidden-lg hidden-md hidden-sm col-xs-10 col-xs-offset-1 partenaires-text">
+            <div id="intercoat-infos-mob" class="hidden-lg hidden-md hidden-sm col-xs-10 col-xs-offset-1 partenaires-text">
                 Le spécialiste des complexes adhésifs synthétiques vous propose :
                 <br/>
                 <br/>ses films PP et PE pour l’étiquette,
@@ -163,7 +163,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-7 col-lg-offset-1 col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 hidden-xs partenaires-infos">
+            <div id="intercoat-infos" class="col-lg-7 col-lg-offset-1 col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 hidden-xs partenaires-infos">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
                         <div class="thumbnail">
@@ -241,5 +241,13 @@
 <script>
 $(document).ready(function() {
     show_mobile_header();
+    $("#intercoat").mouseover(function() {
+        $('#intercoat-infos').show();
+        $('#intercoat-infos-mob').show();
+    });
+    $("#intercoat").mouseout(function() {
+        $('#intercoat-infos').hide();
+        $('#intercoat-infos-mob').hide();
+    });
 });
 </script>

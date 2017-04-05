@@ -201,8 +201,9 @@
                 </p>
                 <div class="row members">
                     <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="thumbnail">
-                            <img src="./images/qsn/member1.png" />
+                        <div id="member1" class="thumbnail">
+                            <img id="img-member1" src="./images/qsn/member1.png" />
+                            <img id="img-member1-2" style="display: none;" src="./images/qsn/member7.png" />
                             <div class="member-name">PRENOM NOM</div>
                             <div class="member-statut">Statut</div>
                         </div>
@@ -314,5 +315,13 @@
 <script>
 $(document).ready(function() {
     show_mobile_header();
+    $("#member1").mouseover(function() {
+        $('#img-member1').hide();
+        $('#img-member1-2').show();
+    });
+    $("#member1").mouseout(function() {
+        $('#img-member1-2').hide();
+        $('#img-member1').show();
+    });
 });
 </script>

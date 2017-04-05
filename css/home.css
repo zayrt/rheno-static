@@ -125,6 +125,17 @@
         position: relative;
         display: none;
     }
+    .intro-home {
+        height: 500px;
+    }
+    .intro-title-large {
+        padding-top: 170px;
+        font-size: 50px;
+    }
+    .left > img,
+    .right > img {
+        padding-top: 200px;
+    }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
@@ -135,11 +146,46 @@
         position: relative;
         right: 10px;
     }
+    .intro-home {
+        height: 450px;
+    }
+    .intro-title-large {
+        padding-top: 170px;
+        font-size: 50px;
+    }
+    .left > img,
+    .right > img {
+        padding-top: 200px;
+    }
+    .left > img {
+        margin-left: -40px;
+    }
+    .right > img {
+        margin-left: 40px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 900px) {
     .title-circle {
         padding-left: 20px;
+    }
+    .intro-home {
+        height: 360px;
+    }
+    .intro-title-large {
+        padding-top: 100px;
+        font-size: 36px;
+        padding-top: 120px;
+    }
+    .left > img,
+    .right > img {
+        padding-top: 140px;
+    }
+    .left > img {
+        margin-left: -35px;
+    }
+    .right > img {
+        margin-left: 35px;
     }
 }
 
@@ -414,10 +460,17 @@
 }
 
 .intro-mobile {
-    background-image: url('../images/intro-mobile.png');
+    background-image: url('../images/home/intro-mobile.png');
     background-size: cover;
     background-position: center;
     height: 228px;
+    width: 100%;
+}
+
+.intro-home {
+    background-image: url('../images/home/intro-home.png');
+    background-size: cover;
+    background-position: center;
     width: 100%;
 }
 
@@ -428,6 +481,13 @@
     letter-spacing: 0.21px;
     text-align: center;
     padding-top: 65px;
+}
+
+.intro-title-large {
+    font-family: NexaBold;
+    color: #FFFFFF;
+    letter-spacing: 0.42px;
+    text-align: center;
 }
 
 .circle {
