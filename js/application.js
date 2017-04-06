@@ -11,6 +11,11 @@ function show_mobile_header() {
     });
 }
 
+function show_answer() {
+    $('.faq-desc').toggle();
+    $('.blue-line').toggle();
+}
+
 function hover_home_title() {
     $("#title-eti").mouseover(function() {
         $('#rect-eti').css("background-image", "linear-gradient(90deg, #003BBD 12%, #3D70FD 91%)");
